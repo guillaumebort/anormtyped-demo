@@ -4,6 +4,6 @@
 
 GET     /                       controllers.Application.index
 POST    /cities                 controllers.Application.create
-POST	  /cities/:id/delete      controllers.Application.delete(id: Int)
+POST    /cities/:id/delete      controllers.Application.delete(id: Int)
 
 GET     /assets/*file           controllers.Assets.at(path="/public", file)
