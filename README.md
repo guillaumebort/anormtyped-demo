@@ -107,7 +107,7 @@ For example, the `findPopulationByCode` query, will act as a function taking a s
 scala> findPopulationByCode(88)
 error: type mismatch; found : Int(88) required: String
 
-scala> indPopulationByCode("FRA").singleOpt
+scala> findPopulationByCode("FRA").singleOpt
 res0: Option[Int] = 59225700
 ```
 
