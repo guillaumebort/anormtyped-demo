@@ -59,7 +59,7 @@ Nothing really fancy here, it's a very basic Play application. It doesn't even u
 
 ## Meet the `TypedSQL` queries
 
-The interesting part are the `TypedSQL` expressions that can be found at the top of the controller code (in `app/controllers/Application.scala`):
+The interesting parts are the `TypedSQL` expressions that can be found at the top of the controller code (in `app/controllers/Application.scala`):
 
 ```scala
 val allCountries = TypedSQL(
