@@ -2,9 +2,8 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-GET     /                           controllers.Application.index
-POST    /cities       				controllers.Application.create
-POST	/cities/:id/delete  		controllers.Application.delete(id: Int)
+GET     /                       controllers.Application.index
+POST    /cities       				  controllers.Application.create
+POST	  /cities/:id/delete  		controllers.Application.delete(id: Int)
 
-# Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.at(path="/public", file)
+GET     /assets/*file           controllers.Assets.at(path="/public", file)
