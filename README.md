@@ -141,7 +141,7 @@ val findPopulationByCode = TypedSQL(
 
 ![](https://raw.github.com/guillaumebort/anormtyped-demo/master/screenshots/schema_error.png)
 
-And of course the types errors:
+And of course the type errors:
 
 ```scala
 val findPopulationByCode = TypedSQL(
