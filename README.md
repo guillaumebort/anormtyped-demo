@@ -36,6 +36,8 @@ play! 2.1-RC2 (using Java 1.6.0_37 and Scala 2.10.0), http://www.playframework.o
 
 You also need to install [PostgresSQL](http://www.postgresql.org/), and to create a new database that you will initialize with the content of the `world.sql` file available in the application root folder.
 
+> Unfortunately in this POC we can't use Play _evolutions_ to update the database schema, because the evolution scripts are applied on the application start, and queries are type checked at compilation time... This is one of the several problems to solve
+
 Check the main Play configuration file (in `conf/application.conf`) and adjust the JDBC settings if needed:
 
 ```properties
