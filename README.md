@@ -75,6 +75,8 @@ And open the running application at http://localhost:9000/
 
 Nothing really fancy here, it's a very basic Play application. It doesn't even use the template engine to keep everything into a single file.
 
+The whole application code can be found in [Application.scala](https://github.com/guillaumebort/anormtyped-demo/blob/master/app/Application.scala).
+
 ## Meet the `TypedSQL` queries
 
 The interesting parts are the `TypedSQL` expressions that can be found at the top of the controller code (in `app/controllers/Application.scala`):
