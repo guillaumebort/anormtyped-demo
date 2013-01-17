@@ -6,7 +6,23 @@ What if Play could:
 - Validate the structure of your SQL statements over the real database schema?
 - Extract the type informations from this schema and use them to enrich the Scala types?
 
-Now, with Scala 2.10 and macro __it is possible__. This demo project is a demonstration of what a typed version of Anorm would look like.
+Now, with Scala 2.10 and macro __it is possible__. 
+
+Using a Scala macro, it finds your SQL statements in your application code, send them to the database for compilation, analysis and validation, and use the analysis result to compute a Scala type for your SQL statement. 
+
+So the basic idea is to transform:
+
+```sql
+SELECT name, age from people where id = ?
+```
+
+To something like:
+
+```scala
+Int => List[(String,Int)]
+```
+
+This demo project is a demonstration of what a typed version of Anorm would look like.
 
 ## Prerequisites
 
