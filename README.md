@@ -24,6 +24,8 @@ Int => List[(String,Int)]
 
 This demo project is a demonstration of what a typed version of Anorm would look like.
 
+> Yes, it's close to and has been inspirated by [sqltyped](https://github.com/jonifreeman/sqltyped), but it uses a different implementation based on JDBC (that has advantages and disadvantages).
+
 ## Prerequisites
 
 Just install the latest [sbt](http://www.scala-sbt.org), or download the latest [Play package](http://www.playframework.org/). 
