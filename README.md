@@ -19,7 +19,7 @@ SELECT name, age from people where id = ?
 To something like:
 
 ```scala
-Int => List[(String,Int)]
+Int => Stream[(String,Int)]
 ```
 
 This demo project is a demonstration of what a typed version of Anorm would look like.
