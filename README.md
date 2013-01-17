@@ -24,7 +24,7 @@ Int => Stream[(String,Int)]
 
 This demo project is a demonstration of what a typed version of Anorm would look like.
 
-> Yes, it's close to and has been inspirated by [sqltyped](https://github.com/jonifreeman/sqltyped), but it uses a different implementation based on JDBC (that has advantages and disadvantages).
+> Yes, it's close to and has been inspirated by [sqltyped](https://github.com/jonifreeman/sqltyped), but it uses a different implementation based on JDBC MetaData (that has advantages and disadvantages).
 
 ## Prerequisites
 
